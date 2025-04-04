@@ -53,25 +53,31 @@
             layers = <0>;
         };
 
-        Tab {
+        combo_tab {
             bindings = <&kp TAB>;
             key-positions = <0 1>;
             layers = <0>;
             timeout-ms = <50>;
         };
 
-        grave-sym-layer {
+        combo_grave_sym_layout {
             bindings = <&kp GRAVE>;
             key-positions = <0 1>;
             layers = <2>;
             timeout-ms = <50>;
         };
 
-        tilde-sym-layer {
+        combo_tilde_sym_layout {
             bindings = <&kp TILDE>;
             key-positions = <0 1 2>;
             timeout-ms = <50>;
             layers = <2>;
+        };
+
+        combo_toggle_super {
+            bindings = <&tog 0>;
+            key-positions = <35 34>;
+            layers = <0 4>;
         };
     };
 

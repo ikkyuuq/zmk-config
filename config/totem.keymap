@@ -117,10 +117,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp UP    &kp EQUAL  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N7  &kp N8     &kp N9  &kp KP_PLUS
-       &kp CAPSLOCK      &kp LEFT          &kp DOWN  &kp RIGHT  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp N4  &kp N5     &kp N6  &kp KP_MINUS
-&mo 3  &trans            &kp PG_UP         &trans    &kp PG_DN  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp N1  &kp N2     &kp N3  &kp KP_MULTIPLY  &kp KP_DIVIDE
-                                           &trans    &trans     &trans                  &kp BACKSPACE          &kp N0  &kp SPACE
+       &kp CAPS  &kp SPACE  &kp UP    &kp EQUAL  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
+       &trans    &kp LEFT   &kp DOWN  &kp RIGHT  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
+&mo 3  &trans    &kp PG_UP  &trans    &kp PG_DN  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp KP_DIVIDE
+                            &trans    &trans     &trans                  &kp BACKSPACE          &kp NUMBER_0  &kp LEFT_ALT
             >;
         };
 
@@ -146,7 +146,7 @@
        &kp EXCL   &kp AT         &kp HASH          &kp DLLR        &kp PRCNT       &kp CARET          &kp AMPS    &kp ASTERISK          &kp SQT               &kp DQT
        &kp GRAVE  &kp TILDE      &kp MINUS         &kp UNDERSCORE  &kp QUESTION    &kp C_VOLUME_UP    &kp C_PREV  &kp C_PP              &kp C_NEXT            &kp FSLH
 &mo 3  &trans     &kp LESS_THAN  &kp GREATER_THAN  &kp EQUAL       &trans          &kp C_VOLUME_DOWN  &kp C_MUTE  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp BSLH  &kp PIPE
-                                 &kp COMMA         &kp PERIOD      &kp SPACE       &trans             &trans      &trans
+                                 &kp COMMA         &kp SPACE       &kp PERIOD      &trans             &trans      &trans
             >;
         };
 

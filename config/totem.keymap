@@ -35,7 +35,7 @@
 
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <16 17>;
+            key-positions = <0 1>;
             bindings = <&kp ESC>;
             layers = <0>;
         };
@@ -53,13 +53,6 @@
             layers = <0>;
         };
 
-        combo_tab {
-            bindings = <&kp TAB>;
-            key-positions = <0 1>;
-            layers = <0>;
-            timeout-ms = <50>;
-        };
-
         combo_grave_sym_layout {
             bindings = <&kp GRAVE>;
             key-positions = <0 1>;
@@ -75,7 +68,7 @@
         };
 
         combo_toggle_super {
-            bindings = <&tog 0>;
+            bindings = <&tog 4>;
             key-positions = <35 34>;
             layers = <0 4>;
             timeout-ms = <50>;
@@ -147,10 +140,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp CAPS       &kp SPACE  &kp UP    &kp EQUAL  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
-        &kp BACKSPACE  &kp LEFT   &kp DOWN  &kp RIGHT  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
-&trans  &trans         &kp PG_UP  &trans    &kp PG_DN  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp KP_DIVIDE
-                                  &trans    &trans     &trans                  &mo 3                  &kp NUMBER_0  &kp LEFT_ALT
+        &kp CAPS       &kp SPACE  &kp UP    &kp EQUAL  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp KP_PLUS
+        &kp BACKSPACE  &kp LEFT   &kp DOWN  &kp RIGHT  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp KP_MINUS
+&trans  &trans         &kp PG_UP  &trans    &kp PG_DN  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp KP_MULTIPLY  &kp KP_DIVIDE
+                                  &trans    &trans     &trans                  &mo 3                  &kp NUMBER_0  &kp RIGHT_WIN
             >;
         };
 
@@ -211,10 +204,10 @@
 
         super {
             bindings = <
-        &trans            &trans            &trans            &trans            &trans              &trans            &trans            &trans            &trans            &trans
-        &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(NUMBER_5)    &kp LA(NUMBER_6)  &kp LA(NUMBER_7)  &kp LA(NUMBER_8)  &kp LA(NUMBER_9)  &kp LA(NUMBER_0)
-&trans  &trans            &trans            &trans            &trans            &trans              &trans            &trans            &trans            &trans            &trans            &trans
-                                            &trans            &trans            &trans              &trans            &trans            &trans
+        &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)    &trans  &trans  &trans  &trans  &trans
+        &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)    &trans  &trans  &trans  &trans  &trans
+&trans  &trans            &trans            &trans            &trans            &trans              &trans  &trans  &trans  &trans  &trans  &trans
+                                            &trans            &trans            &trans              &trans  &trans  &trans
             >;
         };
     };

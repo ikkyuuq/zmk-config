@@ -126,10 +126,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp Q           &kp W           &kp E             &kp R        &kp T          &kp Y         &kp U        &kp I              &kp O            &kp P
-       &mt LEFT_WIN A  &ft LEFT_ALT S  &ft LEFT_SHIFT D  &ft LCTRL F  &kp G          &kp H         &ft RCTRL J  &ft RIGHT_SHIFT K  &ft RIGHT_ALT L  &mt LEFT_WIN SEMICOLON
-&kp Z  &kp A           &kp X           &kp C             &kp V        &kp B          &kp N         &kp M        &kp COMMA          &kp DOT          &kp FSLH                &kp BSLH
-                                       &kp DELETE        &kp TAB      &lt 1 SPACE    &lt 2 RETURN  &kp ESCAPE   &kp BACKSPACE
+       &kp Q           &kp W           &kp E             &kp R        &kp T          &kp Y         &kp U               &kp I             &kp O           &kp P
+       &mt LEFT_WIN A  &ft LEFT_ALT S  &ft LEFT_SHIFT D  &ft LCTRL F  &kp G          &kp H         &ft LEFT_CONTROL J  &ft LEFT_SHIFT K  &ft LEFT_ALT L  &mt LEFT_WIN SEMICOLON
+&kp Z  &kp A           &kp X           &kp C             &kp V        &kp B          &kp N         &kp M               &kp COMMA         &kp DOT         &kp FSLH                &kp BSLH
+                                       &kp DELETE        &kp TAB      &lt 1 SPACE    &lt 2 RETURN  &kp ESCAPE          &kp BACKSPACE
             >;
         };
 
@@ -155,7 +155,7 @@
         &kp CAPS       &kp SPACE  &kp UP    &kp EQUAL  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp KP_PLUS
         &kp BACKSPACE  &kp LEFT   &kp DOWN  &kp RIGHT  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp KP_MINUS
 &trans  &trans         &kp PG_UP  &trans    &kp PG_DN  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp KP_MULTIPLY  &kp KP_DIVIDE
-                                  &trans    &trans     &trans                  &mo 3                  &kp NUMBER_0  &kp RIGHT_WIN
+                                  &trans    &trans     &trans                  &mo 3                  &kp NUMBER_0  &kp BACKSPACE
             >;
         };
 
